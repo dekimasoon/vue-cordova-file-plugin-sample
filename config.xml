@@ -15,7 +15,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <!-- TODO: You should modify allow-navigation settings for production build -->
     <allow-navigation href="*" />
     <platform name="android">
         <allow-intent href="market:*" />
@@ -39,7 +38,6 @@
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#f5f5f5" />
         <preference name="StatusBarStyle" value="default" />
-        <!-- INFO: If you want to prevent scrolling, set false -->
         <preference name="ScrollEnabled" value="true" />
         <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
         <splash src="res/screen/ios/Default@3x~universal~anyany.png" />
