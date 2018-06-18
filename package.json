@@ -34,6 +34,9 @@
   },
   "eslintConfig": {
     "root": true,
+    "globals": {
+      "cordova": true
+    },
     "env": {
       "node": true
     },
